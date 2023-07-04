@@ -7,7 +7,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derf Max</title>
+    <title>Licenciatura en Informática</title>
+    <link rel="icon" href="/Imagenes/logo2.ico">
     <link rel="stylesheet" href="boxicons.min.css">
     <link rel="stylesheet" href="style2.css">
     <!-- Link Swiper's CSS -->
@@ -31,48 +32,44 @@
             <li class="menu-item">
                 <a href="/Carrera.html">Carrera ▾<i></i></a>
                 <ul class="submenu">
-                    <li><a href="#">Mision y Visión</a></li>
-                    <li><a href="#">Perfil de ingreso</a></li>
-                    <li><a href="#">Perfil de egreso</a></li>
-                    <li><a href="#">Plan de estudios</a></li>
-                    <li><a href="#">Calendario Escolar</a></li>
-                    <li><a href="#">Planeación</a></li>
-                    <li><a href="#">Actividades complementarias</a></li>
+                    <li><a href="Carrera.html#mision">Mision y Visión</a></li>
+                    <li><a href="Carrera.html?cargar-ingreso=true" id="cargar-ingreso">Perfil de ingreso</a></li>
+                    <li><a href="Carrera.html?cargar-egreso=true" id="cargar-egreso">Perfil de egreso</a></li>
+                    <li><a href="Carrera.html?cargar-pestudio=true">Plan de estudios</a></li>
+                    <li><a href="Carrera.html?cargar-calendario=true">Calendario Escolar</a></li>
                 </ul>
             </li>
             <li class="menu-item">
                 <a href="/Alumnos.html">Alumnos ▾<i></i></a>
                 <ul class="submenu">
                     <li><a href="#">Información adicional</a></li>
-                    <li><a href="#">Reglamentos</a></li>
-                    <li><a href="#">Horarios</a></li>
-                    <li><a href="#">Calendario de exámenes</a></li>
-                    <li><a href="#">Cuadro de honor</a></li>
-                    <li><a href="#">Eventos académicos</a></li>
+                    <li><a href="Alumnos.html#reglas" id="cargar-reglas">Reglamentos</a></li>
+                    <li><a href="Alumnos.html#horario" id="cargar-horario">Horarios</a></li>
+                    <li><a href="Alumnos.html#examen" id="cargar-examen">Calendario de exámenes</a></li>
                 </ul>
             </li>
             <li class="menu-item">
                 <a href="/Profesores.html">Profesores ▾<i></i></a>
                 <ul class="submenu">
-                    <li><a href="#">Planta docentes</a></li>
-                    <li><a href="#">Cuerpos Academicos</a></li>
+                    <li><a href="Profesores.html#descripcion">Planta docentes</a></li>
+                    <li><a href="Profesores.html#cuerpo">Cuerpos Academicos</a></li>
                 </ul>
             </li>
             <li class="menu-item">
                 <a href="Egresados.html">Egresados ▾<i></i></a>
                 <ul class="submenu">
-                    <li><a href="#">Nuestro egresados</a></li>
-                    <li><a href="#">Exámenes profesionales</a></li>
-                    <li><a href="#">Titulados por CENEVAL</a></li>
-                    <li><a href="#">Titulados por TESIS</a></li>
+                    <li><a href="Egresados.html">Nuestro egresados</a></li>
+                    <li><a href="Egresados.html">Exámenes profesionales</a></li>
+                    <li><a href="Egresados.html">Titulados por CENEVAL</a></li>
+                    <li><a href="Egresados.html">Titulados por TESIS</a></li>
                 </ul>
             </li>
             <li class="menu-item">
                 <a href="Aspirantes.html">Aspirantes ▾<i></i></a>
                 <ul class="submenu">
-                    <li><a href="#">Requisitos de ingreso</a></li>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="#">Instalaciones</a></li>
+                    <li><a href="Aspirantes.html#requisitos">Requisitos de ingreso</a></li>
+                    <li><a href="Aspirantes.html?cargar-preguntas=true"">Preguntas frecuentes</a></li>
+                    <li><a href="Aspirantes.html#instalaciones">Instalaciones</a></li>
                 </ul>
             </li>
             <li><a href="/Encuentranos.html" class="home-active">Encuéntranos</a></li>
@@ -81,8 +78,10 @@
 
     <!-- Home -->
     <section class="home swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden" id="home">
-        <div class="swiper-wrapper" id="swiper-wrapper-b7b8d9065c4f0c47" aria-live="off" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-            <div class="swiper-slide container swiper-slide-next" style="width: 1912px; margin-right: 30px;" role="group" aria-label="3 / 5">
+        <div class="swiper-wrapper" id="swiper-wrapper-b7b8d9065c4f0c47" aria-live="off"
+            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+            <div class="swiper-slide container swiper-slide-next" style="width: 1912px; margin-right: 30px;"
+                role="group" aria-label="3 / 5">
                 <img src="/Imagenes/c2.jpg" alt="">
                 <div class="home-text">
                     <H2>ALUMNOS<br></H2>
@@ -90,8 +89,13 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+        <div
+            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet"
+                tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet"
+                tabindex="0" role="button" aria-label="Go to slide 4"></span>
         </div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </section>
@@ -102,7 +106,10 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            Los cursos son semestrales comprendiendo en promedio 17 semanas, el primer semestre comienza en el mes de Octubre y culmina en Marzo, mientras que el segundo empieza en Marzo y finaliza en Julio. Los cursos son impartidos generalmente en 3 módulos a la semana bajo el horario emitido por el departamento de servicios escolares.
+                Los cursos son semestrales comprendiendo en promedio 17 semanas, el primer semestre comienza en el mes
+                de Octubre y culmina en Marzo, mientras que el segundo empieza en Marzo y finaliza en Julio. Los cursos
+                son impartidos generalmente en 3 módulos a la semana bajo el horario emitido por el departamento de
+                servicios escolares.
             </p>
         </div>
     </section>
@@ -112,7 +119,10 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            Un aspecto característico del sistema es el fomento a las asesorías personalizadas, aun cuando las horas para dicha actividad están perfectamente distribuidas entre los horarios de clases, los profesores-investigadores están en la mejor disposición de atender al alumno en cualquier momento que lo requiera.
+                Un aspecto característico del sistema es el fomento a las asesorías personalizadas, aun cuando las horas
+                para dicha actividad están perfectamente distribuidas entre los horarios de clases, los
+                profesores-investigadores están en la mejor disposición de atender al alumno en cualquier momento que lo
+                requiera.
             </p>
         </div>
     </section>
@@ -122,7 +132,9 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            Las tutorías tienen el propósito de brindar al estudiante apoyo académico o personal con la finalidad de lograr o mantener un buen desempeño académico. Para ello se le asigna como Tutor a un profesor-investigador adscrito a la carrera de ingeniería en computación.
+                Las tutorías tienen el propósito de brindar al estudiante apoyo académico o personal con la finalidad de
+                lograr o mantener un buen desempeño académico. Para ello se le asigna como Tutor a un
+                profesor-investigador adscrito a la carrera de ingeniería en computación.
             </p>
         </div>
     </section>
@@ -132,7 +144,11 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            La Estancia Profesional complementa la preparación académica recibida en las aulas y le permiten al alumno familiarizarse con los problemas y situaciones reales que se viven en el ámbito laboral. Asimismo, elevan la competitividad de los profesionales otorgándoles experiencia, sólida formación basada en valores fundamentales, pensamientos críticos y habilidades para trabajar en equipo. La estancia profesional se realiza al terminar el sexto y octavo semestre.
+                La Estancia Profesional complementa la preparación académica recibida en las aulas y le permiten al
+                alumno familiarizarse con los problemas y situaciones reales que se viven en el ámbito laboral.
+                Asimismo, elevan la competitividad de los profesionales otorgándoles experiencia, sólida formación
+                basada en valores fundamentales, pensamientos críticos y habilidades para trabajar en equipo. La
+                estancia profesional se realiza al terminar el sexto y octavo semestre.
             </p>
         </div>
     </section>
@@ -142,7 +158,14 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            El servicio social es una oportunidad para que el alumno reconozca las posibilidades de aplicación de su carrera en actividades que apoyan la solución de problemas sociales. Se trata de una actividad formativa y de servicio, el cual es un requisito académico indispensable para la titulación, de acuerdo con lo establecido en el Reglamento de la Ley Reglamentaria del artículo 5º Constitucional. Para la Universidad, el servicio social es la oportunidad para que los estudiantes de licenciatura logren entrar en contacto directo con la realidad del país, y para fortalecer su compromiso y responsabilidad social. El servicio social se realiza después de haber cubierto el 80% de los créditos de la carrera. Esto ocurrirá, generalmente, después de cursar el octavo semestre.
+                El servicio social es una oportunidad para que el alumno reconozca las posibilidades de aplicación de su
+                carrera en actividades que apoyan la solución de problemas sociales. Se trata de una actividad formativa
+                y de servicio, el cual es un requisito académico indispensable para la titulación, de acuerdo con lo
+                establecido en el Reglamento de la Ley Reglamentaria del artículo 5º Constitucional. Para la
+                Universidad, el servicio social es la oportunidad para que los estudiantes de licenciatura logren entrar
+                en contacto directo con la realidad del país, y para fortalecer su compromiso y responsabilidad social.
+                El servicio social se realiza después de haber cubierto el 80% de los créditos de la carrera. Esto
+                ocurrirá, generalmente, después de cursar el octavo semestre.
             </p>
         </div>
     </section>
@@ -152,14 +175,22 @@
         <!-- movies container  -->
         <div class="movies-container">
             <p>
-            Una vez concluido el 100% de los créditos del plan, haber realizado las estancias profesionales y el servicio social, y acreditado los niveles de inglés, se debe proceder al proceso de titulación. La carrera ofrece dos opciones para la obtención del título: la primera es mediante la realización de tesis profesional y la segunda es a través de la realización del examen 
-            <a href="https://ceneval.edu.mx/examenes-egreso-egel/"> EGEL-ICOMPU </a>
-            del CENEVAL. Los requisitos de las opciones de titulación se describen en los capítulos IV, V y VI del 
-            <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/REGLAMENTO_GENERAL_DE_ALUMNOS.pdf">Reglamento de alumnos de Licenciatura.</a>
-            
+                Una vez concluido el 100% de los créditos del plan, haber realizado las estancias profesionales y el
+                servicio social, y acreditado los niveles de inglés, se debe proceder al proceso de titulación. La
+                carrera ofrece dos opciones para la obtención del título: la primera es mediante la realización de tesis
+                profesional y la segunda es a través de la realización del examen
+                <a href="https://ceneval.edu.mx/examenes-egreso-egel/"> EGEL-ICOMPU </a>
+                del CENEVAL. Los requisitos de las opciones de titulación se describen en los capítulos IV, V y VI del
+                <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/REGLAMENTO_GENERAL_DE_ALUMNOS.pdf">Reglamento
+                    de alumnos de Licenciatura.</a>
+
             </p>
         </div>
     </section>
+
+    <section class="movies" id="reglas"></section>
+    <section class="movies" id="horario"></section>
+    <section class="movies" id="examen"></section>
 
     <section class="movies" id="movies">
         <h2 class="heading">
@@ -221,7 +252,405 @@
     <!-- Swiper JS -->
     <script src="swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        document.getElementById("cargar-reglas").addEventListener("click", function (event) {
+            event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
 
+            // Realizar aquí tu lógica para cargar nueva información
+            // Puedes utilizar AJAX, fetch o cualquier otra técnica para obtener la información desde una fuente externa
+
+            // Ejemplo: Cargar un texto en el elemento <div id="contenido">
+            document.getElementById("reglas").innerHTML = `
+            <h2 class="heading">Reglamentos</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/REGLAMENTO_GENERAL_DE_ALUMNOS.pdf">
+                            <img class="imagen" src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento general de
+                                    alumnos</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento general de alumnos</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/reg_red.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de
+                                    red</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de red</h3>
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_de_bibliotecas.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de
+                                    biblioteca</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de biblioteca</h3>
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_salas_computo.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de salas de
+                                    cómputo</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de salas de cómputo</h3>
+                </div>
+
+                <!-- box-5  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_salas_autoacceso_centro_de_idiomas.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento del centro de
+                                    idiomas</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento del centro de idiomas</h3>
+                </div>
+
+                <!-- box-6  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-7  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-8  -->
+                <div class="box">
+
+                </div>
+            </div>
+            `;
+
+            document.getElementById("reglas").scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        if (window.location.href.indexOf('cargar-reglas=true') !== -1) {
+            document.getElementById("reglas").innerHTML = `
+            <h2 class="heading">Reglamentos</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/REGLAMENTO_GENERAL_DE_ALUMNOS.pdf">
+                            <img class="imagen" src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento general de
+                                    alumnos</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento general de alumnos</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/reg_red.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de
+                                    red</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de red</h3>
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_de_bibliotecas.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de
+                                    biblioteca</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de biblioteca</h3>
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_salas_computo.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento de salas de
+                                    cómputo</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento de salas de cómputo</h3>
+                </div>
+
+                <!-- box-5  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="http://www.unistmo.edu.mx/~computacion/otros/reglamentos/Reglamento_salas_autoacceso_centro_de_idiomas.pdf">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Reglamento del centro de
+                                    idiomas</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Reglamento del centro de idiomas</h3>
+                </div>
+
+                <!-- box-6  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-7  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-8  -->
+                <div class="box">
+
+                </div>
+            </div>
+            `;
+
+            document.getElementById("reglas").scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        document.getElementById("cargar-examen").addEventListener("click", function (event) {
+            event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+            // Realizar aquí tu lógica para cargar nueva información
+            // Puedes utilizar AJAX, fetch o cualquier otra técnica para obtener la información desde una fuente externa
+
+            // Ejemplo: Cargar un texto en el elemento <div id="contenido">
+            document.getElementById("examen").innerHTML = `
+            <h2 class="heading">Calendario Examenes</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1769264225377208748&th=188db070636a49ac&view=att&disp=inline&realattid=f_lj4vy1h10&saddbat=ANGjdJ961CQK9AxOx3N35mHLCn7UBLlJNzRj5s2WjxQendqErkiA4HGrcNfZBu30PSgCbAaZiLTaE7LKQgyPSkQ2du-fWY6EuSZHpS-2ecCf50hnn15R8EmnZgf7NaSxB1drDXMibJGsKeMjC-KjF1UyKrEQEPPnCXN88PMEKhqHCbjLUSgHdPAosLGb3DQEhcf20eOYd4Ip1aLchq24-HUQcyXZGF-UU4fmalYjbmR8a4fitvHseBIWZvNHkpUlwdl2YmBpzrC8Pr8ArKG2P0E_S7DVDib-ACtbT5eFRv7zMUmUWbUsAnkGYNFq0ziQFHoXtXa1Wk4lkR-kgrMrhrAlgEZqVAumWez1yG-N_sK6-MsZBfKbxQXMnCKSmaOBU9bb3dHDCK-kKItrVeoEYXnrpQz2ABBejpsp9Z5fkeqR50iZCa0_LpS0V6ZMDuLRwoi-jF4Y__4tc9TFDT3u_PF8YgVLQZb4gAg2IbFEzRG2HKybChNIcpttV47Ee59ktwh15nLpXVCK3kc6dem6RvBTFP-D1_DCjU30lySwnEsJ63qWoogtwgUJH8hlmyK40mfJG59NNwy8Y-WO9AOlRTgGS3GQQ9x8F54SeIuVHVRUtD9ENV2okV8v6PWBaELgN8yxuppfsVGdCGLHrEz1xxzkMlJ6hkMnNfJY7UDw3AHwqUH2wlfGorCij5V_8FZdzd_VRKGqAs6SS6qoqtrEx45mEAjd__Cke-W0Lms7JQ3qbgUSabteOEvnEg1fSHoq-aHcnjvQkVYQKuLTIKObcWOAsb5vEx1_8epCe-7kzY7g-dGxsL8-_b19yiqTciL0aPy75HLoEEL-iKhvzazJ-UpegY24TaenjrldGadFoNeV0DnRuEpVgl9BKEZ5whKWz2CCWRzYuAiJkOP4f67AaNpAJHM_XPwkJLSUKFAECMDcb9st-4Di61rzeSGcyDiCpovyLNKvK7G_4AXWRZHAr6K5G8X8GIjFwkOKbs77weMGS7z7AerCXDicwpbjltUCZLmWm-JGdiP0i5qxRTeKfSX_P3MipP9edX8RAhMajQ">
+                            <img class="imagen" src="/Imagenes/docB.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Examen
+                                    Ordinario</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Examen Ordinario</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://docs.google.com/document/d/1ytv5mPdPezi982yZn0tTxBwCtLARKo-L/edit?usp=sharing&ouid=111036427740433762458&rtpof=true&sd=true">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Tercer Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Tercer Parcial</h3>
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1764922803241750437&th=187e43f047360fa5&view=att&disp=inline&realattid=f_lh8dunxc0&saddbat=ANGjdJ-rhXa5HPks5p44v1DfpKk_J4m1qwvMACwJJKL4lCuaGA8_jWRXsL4iI0X1Ttas1kRT9uo6mNZMhah0h-3T9Lttgu8vBNXzG02NngAsZ7zJEZmGOnM0zLz0uZKjmWHYgYMT5IgEVJ6Ubau-fsh5yY3eGGArvtxIaQG1o1mrYUkBaTl8lgt8BNPboCQ7XJFYGeGS4u0WRJF7DHoXsIMdB1eeDhDRlE81P5ioI0pCqN_6AJ5zpaC0fU8cP_v2oUIkHwJZ8hA8_vluVraL9PSC5KQ0TwKOVUhhHGlmaVmpFX_keaO6NAHuJqr8dnEUFxzRaLsOioL3wJGYYNKrEuA_n5XgKKiK7PtgR_svIRqLFwlBgq-bdeVGY4A46eq7tjqcoSgrE2ethBuybv_VgIj7NnfEsUWwpAfX47uqotcbSJqwt99G33nFPBf4rYp7REbyI2Z6vBcCZkSxsBe8BldFkwEbkoPyp_oQEVlAF2unpIeEJhsW4ShPrJ4hqxq5fWabaJmz-yhSKGiwC0t7gknROSm_xBBvpUmqKnE12emRk1QqHoRS3R6WKrPnKRvC1jXFpP2wVwzXJd-SfCrwLilgV91E1gbMXhUX7iyj37oR9qdcTZKHEb3EyYtUN0aqckvvIs_k5LkL7qzjJ_0vQhp4eQji7IPgujj2zdDFSkqIWb_c9-dPm57uc2KWBpk-AlIyZVq8F3e86F68f1DTi1PhTfzA-64dwT2UVw00MwWiU_uKUaXS_R7MrP-qmEV39grRbf0opw3XaZSS6hH6K9dEzj2ksPg2gFBTYbDkdS3iM59-aXCmBekwNdXveadciy7z6CLnn9FgDSgY_sKnSPnrLxT7h9nLwSfWyn4v2e8vhZr6HmgAriRdXyCmd-Wujut0yjV9bNDEVqagS6HM890Lu3evHwprW_3cvdJesiGwzrKOrs1vz0t2jOjhalW_-nmXd7wzqdWJAacf4ujhB8tHaZcTI5mmFPjlLN-cufqqnE_jalL9RiYQGwBTuFJlOUC82zi-v0UScZra-1svHisv1POnAybQlVD4acW1EQ">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Segundo Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Segundo Parcial</h3>
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://docs.google.com/document/d/1lk2MoHAdsLu5lL1Hxzgsi3bwnuebEhsr/edit?usp=sharing&ouid=111036427740433762458&rtpof=true&sd=true">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Primer Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Primer Parcial</h3>
+                </div>
+            </div>
+            `;
+
+            document.getElementById("examen").scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        if (window.location.href.indexOf('cargar-examen=true') !== -1) {
+            document.getElementById("examen").innerHTML = `
+            <h2 class="heading">Calendario Examenes</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1769264225377208748&th=188db070636a49ac&view=att&disp=inline&realattid=f_lj4vy1h10&saddbat=ANGjdJ961CQK9AxOx3N35mHLCn7UBLlJNzRj5s2WjxQendqErkiA4HGrcNfZBu30PSgCbAaZiLTaE7LKQgyPSkQ2du-fWY6EuSZHpS-2ecCf50hnn15R8EmnZgf7NaSxB1drDXMibJGsKeMjC-KjF1UyKrEQEPPnCXN88PMEKhqHCbjLUSgHdPAosLGb3DQEhcf20eOYd4Ip1aLchq24-HUQcyXZGF-UU4fmalYjbmR8a4fitvHseBIWZvNHkpUlwdl2YmBpzrC8Pr8ArKG2P0E_S7DVDib-ACtbT5eFRv7zMUmUWbUsAnkGYNFq0ziQFHoXtXa1Wk4lkR-kgrMrhrAlgEZqVAumWez1yG-N_sK6-MsZBfKbxQXMnCKSmaOBU9bb3dHDCK-kKItrVeoEYXnrpQz2ABBejpsp9Z5fkeqR50iZCa0_LpS0V6ZMDuLRwoi-jF4Y__4tc9TFDT3u_PF8YgVLQZb4gAg2IbFEzRG2HKybChNIcpttV47Ee59ktwh15nLpXVCK3kc6dem6RvBTFP-D1_DCjU30lySwnEsJ63qWoogtwgUJH8hlmyK40mfJG59NNwy8Y-WO9AOlRTgGS3GQQ9x8F54SeIuVHVRUtD9ENV2okV8v6PWBaELgN8yxuppfsVGdCGLHrEz1xxzkMlJ6hkMnNfJY7UDw3AHwqUH2wlfGorCij5V_8FZdzd_VRKGqAs6SS6qoqtrEx45mEAjd__Cke-W0Lms7JQ3qbgUSabteOEvnEg1fSHoq-aHcnjvQkVYQKuLTIKObcWOAsb5vEx1_8epCe-7kzY7g-dGxsL8-_b19yiqTciL0aPy75HLoEEL-iKhvzazJ-UpegY24TaenjrldGadFoNeV0DnRuEpVgl9BKEZ5whKWz2CCWRzYuAiJkOP4f67AaNpAJHM_XPwkJLSUKFAECMDcb9st-4Di61rzeSGcyDiCpovyLNKvK7G_4AXWRZHAr6K5G8X8GIjFwkOKbs77weMGS7z7AerCXDicwpbjltUCZLmWm-JGdiP0i5qxRTeKfSX_P3MipP9edX8RAhMajQ">
+                            <img class="imagen" src="/Imagenes/docB.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Examen
+                                    Ordinario</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Examen Ordinario</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://docs.google.com/document/d/1ytv5mPdPezi982yZn0tTxBwCtLARKo-L/edit?usp=sharing&ouid=111036427740433762458&rtpof=true&sd=true">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Tercer Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Tercer Parcial</h3>
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1764922803241750437&th=187e43f047360fa5&view=att&disp=inline&realattid=f_lh8dunxc0&saddbat=ANGjdJ-rhXa5HPks5p44v1DfpKk_J4m1qwvMACwJJKL4lCuaGA8_jWRXsL4iI0X1Ttas1kRT9uo6mNZMhah0h-3T9Lttgu8vBNXzG02NngAsZ7zJEZmGOnM0zLz0uZKjmWHYgYMT5IgEVJ6Ubau-fsh5yY3eGGArvtxIaQG1o1mrYUkBaTl8lgt8BNPboCQ7XJFYGeGS4u0WRJF7DHoXsIMdB1eeDhDRlE81P5ioI0pCqN_6AJ5zpaC0fU8cP_v2oUIkHwJZ8hA8_vluVraL9PSC5KQ0TwKOVUhhHGlmaVmpFX_keaO6NAHuJqr8dnEUFxzRaLsOioL3wJGYYNKrEuA_n5XgKKiK7PtgR_svIRqLFwlBgq-bdeVGY4A46eq7tjqcoSgrE2ethBuybv_VgIj7NnfEsUWwpAfX47uqotcbSJqwt99G33nFPBf4rYp7REbyI2Z6vBcCZkSxsBe8BldFkwEbkoPyp_oQEVlAF2unpIeEJhsW4ShPrJ4hqxq5fWabaJmz-yhSKGiwC0t7gknROSm_xBBvpUmqKnE12emRk1QqHoRS3R6WKrPnKRvC1jXFpP2wVwzXJd-SfCrwLilgV91E1gbMXhUX7iyj37oR9qdcTZKHEb3EyYtUN0aqckvvIs_k5LkL7qzjJ_0vQhp4eQji7IPgujj2zdDFSkqIWb_c9-dPm57uc2KWBpk-AlIyZVq8F3e86F68f1DTi1PhTfzA-64dwT2UVw00MwWiU_uKUaXS_R7MrP-qmEV39grRbf0opw3XaZSS6hH6K9dEzj2ksPg2gFBTYbDkdS3iM59-aXCmBekwNdXveadciy7z6CLnn9FgDSgY_sKnSPnrLxT7h9nLwSfWyn4v2e8vhZr6HmgAriRdXyCmd-Wujut0yjV9bNDEVqagS6HM890Lu3evHwprW_3cvdJesiGwzrKOrs1vz0t2jOjhalW_-nmXd7wzqdWJAacf4ujhB8tHaZcTI5mmFPjlLN-cufqqnE_jalL9RiYQGwBTuFJlOUC82zi-v0UScZra-1svHisv1POnAybQlVD4acW1EQ">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Segundo Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Segundo Parcial</h3>
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://docs.google.com/document/d/1lk2MoHAdsLu5lL1Hxzgsi3bwnuebEhsr/edit?usp=sharing&ouid=111036427740433762458&rtpof=true&sd=true">
+                            <img src="/Imagenes/docR.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Primer Parcial</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Primer Parcial</h3>
+                </div>
+            </div>
+            `;
+
+            document.getElementById("examen").scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        document.getElementById("cargar-horario").addEventListener("click", function (event) {
+            event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+            // Realizar aquí tu lógica para cargar nueva información
+            // Puedes utilizar AJAX, fetch o cualquier otra técnica para obtener la información desde una fuente externa
+
+            // Ejemplo: Cargar un texto en el elemento <div id="contenido">
+            document.getElementById("horario").innerHTML = `
+            <h2 class="heading">Horarrio</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1759368190333006649&th=186a880c2debb339&view=att&disp=inline&realattid=f_lest0j1s0&saddbat=ANGjdJ-UeJllyHfoCIfI-YcfhxZynGFIEv2baUZBOEd2X2Mm7qHbQ5-wU0TvJAjH5JgVXJLcsf1xKV1sh2x_mS6SUQti8VFR4gOBh9N_dhKtLDXmGmD9zXDl159MFGhTF0S1T21Fb4ZLZlo9HPuPr3gkFrtfA8CyTK1XiuhQdgjgQowrsFh8ADb05Pf2Yc7BUUqSz3ji1pON3YSg-avOo0AYxnCYUg8GHart_mLs-qhK4VE-GXJuL-AJDZaqrdvSgwlyjBPHM4e6AWUOIGy58JCRfNoIZHPN9WOt96NRZb6kLipfT6dx1l8GXUklPcH59NcVCWcCTPVVcJIN8D_sDVR9dFZvEti79K6i79_8ytd8AislFB4it6VOnL0Yrtn6Lj-ewxRFxqxkR-PSsKR5or3yOkWpO0xj5-OdXfbuPPfleK6N9O4XlxzRwyAHjyhzeUtT6YT6dPJRFtWBeNQIFuLrh4E34Wl8hLswLAVLFhkz3qRqzJgTzqqPpp8BDl-JLIwstz4CgTQsWi9FJMT0TgnFAhImFhgyzJL99JXubNoqOHXg0whXvTPbhAE_DZyt02IcCgpa2jkzJCi-tTXgkyMc8hu8T29dHTE9QWnFE0KLnoia5wxAxZRW3xA5D1G6SodqYjENTkbQ-Nz6mDJFhs1rDqwWKDuM0NWfpz89P5n7po46A96sB3jXnoc4369dcatz1lkmXwaWxdb4O5nAgoP0_4W2o65XRrUSVdSaNCzQr_fw3ZUHQBgnd4vVe0I6JPmqiPENOyZGsgCF3INqqJj5epn5h5D2DHulMpFO-R_lbf4iSlFNis4ZUp0nuyi830GvR2sTB7ms6CxhL5MAMUAuDMmbExLxQz7_aRwCJSbwref3FOnFmAPQY6oQTwKdmv3vij6YB3XkFF7zPYs1gYSSWVc042BEkL2APIwiWBhIxqbTbmpvkN6xfIQ7hyaV4q9rAm7e0-J-SrR1yCaovgr9m4yVeHk2wv5wunPPTMPp8WqGgahsPY3DLKocK_WCfKaxFuFIxcR63zx1aVuOUoVRU1qCcaRv-omPB4ircQ">
+                            <img class="imagen" src="/Imagenes/docB.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Semestre
+                                    2021-22-A</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Semestre 2021-22-A</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+
+                </div>
+            </div>
+            `;
+
+            document.getElementById("horario").scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        if (window.location.href.indexOf('cargar-horario=true') !== -1) {
+            document.getElementById("horario").innerHTML = `
+            <h2 class="heading">Horarrio</h2>
+            <!-- movies container  -->
+            <div class="movies-container">
+                <!-- box-1  -->
+                <div class="box">
+                    <div class="box-img">
+                        <a
+                            href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=24eae7f20d&attid=0.1&permmsgid=msg-f:1759368190333006649&th=186a880c2debb339&view=att&disp=inline&realattid=f_lest0j1s0&saddbat=ANGjdJ-UeJllyHfoCIfI-YcfhxZynGFIEv2baUZBOEd2X2Mm7qHbQ5-wU0TvJAjH5JgVXJLcsf1xKV1sh2x_mS6SUQti8VFR4gOBh9N_dhKtLDXmGmD9zXDl159MFGhTF0S1T21Fb4ZLZlo9HPuPr3gkFrtfA8CyTK1XiuhQdgjgQowrsFh8ADb05Pf2Yc7BUUqSz3ji1pON3YSg-avOo0AYxnCYUg8GHart_mLs-qhK4VE-GXJuL-AJDZaqrdvSgwlyjBPHM4e6AWUOIGy58JCRfNoIZHPN9WOt96NRZb6kLipfT6dx1l8GXUklPcH59NcVCWcCTPVVcJIN8D_sDVR9dFZvEti79K6i79_8ytd8AislFB4it6VOnL0Yrtn6Lj-ewxRFxqxkR-PSsKR5or3yOkWpO0xj5-OdXfbuPPfleK6N9O4XlxzRwyAHjyhzeUtT6YT6dPJRFtWBeNQIFuLrh4E34Wl8hLswLAVLFhkz3qRqzJgTzqqPpp8BDl-JLIwstz4CgTQsWi9FJMT0TgnFAhImFhgyzJL99JXubNoqOHXg0whXvTPbhAE_DZyt02IcCgpa2jkzJCi-tTXgkyMc8hu8T29dHTE9QWnFE0KLnoia5wxAxZRW3xA5D1G6SodqYjENTkbQ-Nz6mDJFhs1rDqwWKDuM0NWfpz89P5n7po46A96sB3jXnoc4369dcatz1lkmXwaWxdb4O5nAgoP0_4W2o65XRrUSVdSaNCzQr_fw3ZUHQBgnd4vVe0I6JPmqiPENOyZGsgCF3INqqJj5epn5h5D2DHulMpFO-R_lbf4iSlFNis4ZUp0nuyi830GvR2sTB7ms6CxhL5MAMUAuDMmbExLxQz7_aRwCJSbwref3FOnFmAPQY6oQTwKdmv3vij6YB3XkFF7zPYs1gYSSWVc042BEkL2APIwiWBhIxqbTbmpvkN6xfIQ7hyaV4q9rAm7e0-J-SrR1yCaovgr9m4yVeHk2wv5wunPPTMPp8WqGgahsPY3DLKocK_WCfKaxFuFIxcR63zx1aVuOUoVRU1qCcaRv-omPB4ircQ">
+                            <img class="imagen" src="/Imagenes/docB.png" alt="">
+                            <span class="texto-superpuesto" style="font-size: 18px;"><strong>Semestre
+                                    2021-22-A</strong></span>
+                        </a>
+                    </div>
+                    <h3>► Semestre 2021-22-A</h3>
+                </div>
+
+                <!-- box-2  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-3  -->
+                <div class="box">
+
+                </div>
+
+                <!-- box-4  -->
+                <div class="box">
+
+                </div>
+            </div>
+            `;
+
+            document.getElementById("horario").scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
 
 </body>
 

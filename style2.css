@@ -272,6 +272,18 @@ section {
     }
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+}
+
 .movies-container {
     max-width: 968px;
     margin-right: auto;
@@ -290,6 +302,20 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
     gap: 5rem;
     margin-top: 2rem;
+}
+
+.movies-container2 .cale {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movies-container2 .fallas {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box .box-img {
@@ -338,8 +364,9 @@ section {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
 .elements li::marker {
-    content: "•  "; 
+    content: "•  ";
 }
 
 .box .box-img img:hover {
@@ -473,6 +500,7 @@ section {
 .columna ul li {
     margin-bottom: 5px;
 }
+
 .columna a {
     color: white;
 }
@@ -538,8 +566,8 @@ a .redes {
         margin-top: 100px;
         margin-right: 50px;
     }
-    
-    
+
+
     a .redes {
         margin-right: 4%;
         width: 30px;
@@ -572,8 +600,8 @@ a .redes {
         margin-top: 100px;
         margin-right: 50px;
     }
-    
-    
+
+
     a .redes {
         margin-right: 5%;
         width: 30px;
@@ -590,7 +618,7 @@ a .redes {
         display: initial;
         color: var(--bg-color);
         margin: auto;
-        
+
     }
 
     /* baad m  */
@@ -647,7 +675,7 @@ a .redes {
     .rs {
         margin: auto;
     }
-    
+
     a .redes {
         margin-right: 10%;
         width: 30px;
@@ -657,6 +685,7 @@ a .redes {
     .final {
         margin: auto;
     }
+
     .columna {
         margin: auto;
     }
@@ -709,6 +738,7 @@ a .redes {
     .movies-container p {
         text-align: justify;
     }
+
     .box .box-img img {
         height: 240px;
     }
